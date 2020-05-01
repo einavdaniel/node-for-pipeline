@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 
 sayhey = function (req, res) {
     try {
-        res.send("Hello from Einav!")
+        res.send("Hello from Tomer!")
 
     } catch (error) {
         res.status(500).send("Couldn't say hello :( " + error.message)
